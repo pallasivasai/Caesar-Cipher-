@@ -23,6 +23,7 @@ The Caesar cipher is a type of substitution cipher in which each letter in the p
 
 ### Encryption Logic
 
+```python
 def encrypt(message, shift):
     encrypted_message = ""
     for char in message:
@@ -32,5 +33,21 @@ def encrypt(message, shift):
         else:
             encrypted_message += char
     return encrypted_message
+```
+### Decryption Logic
+```
+def decrypt(message, shift):
+    return encrypt(message, -shift)
+```
+### Usage
+1.Run the script:
 
-
+```
+python caesar_cipher.py
+```
+2.Follow the on-screen prompts to choose an option:
+    - `Encrypt: Enter 1 to encrypt a message.
+    - `Decrypt: Enter 2 to decrypt a message.
+    - `Exit: Enter 3 to exit the program.
+### Requirements
+    - `Python 3.x
