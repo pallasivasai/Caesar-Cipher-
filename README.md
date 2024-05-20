@@ -46,8 +46,9 @@ def decrypt(message, shift):
 python caesar_cipher.py
 ```
 2.Follow the on-screen prompts to choose an option:
-    - `Encrypt: Enter 1 to encrypt a message.
-    - `Decrypt: Enter 2 to decrypt a message.
-    - `Exit: Enter 3 to exit the program.
+
+    - Encrypt: Enter 1 to encrypt a message.
+    - Decrypt: Enter 2 to decrypt a message.
+    - Exit: Enter 3 to exit the program.
 ### Requirements
     - `Python 3.x
